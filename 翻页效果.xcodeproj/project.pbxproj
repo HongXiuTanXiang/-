@@ -15,6 +15,8 @@
 		14D471CD1E3E1D220021AC76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14D471CB1E3E1D220021AC76 /* LaunchScreen.storyboard */; };
 		14D471D81E3E1D220021AC76 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14D471D71E3E1D220021AC76 /* ____Tests.m */; };
 		14D471E31E3E1D220021AC76 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14D471E21E3E1D220021AC76 /* ____UITests.m */; };
+		14D471F11E3E1ECB0021AC76 /* 雨滴.png in Resources */ = {isa = PBXBuildFile; fileRef = 14D471F01E3E1ECB0021AC76 /* 雨滴.png */; };
+		14D471F41E3E214D0021AC76 /* pageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 14D471F31E3E214D0021AC76 /* pageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		14D471DE1E3E1D220021AC76 /* 翻页效果UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "翻页效果UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		14D471E21E3E1D220021AC76 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		14D471E41E3E1D220021AC76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14D471F01E3E1ECB0021AC76 /* 雨滴.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "雨滴.png"; sourceTree = "<group>"; };
+		14D471F21E3E214D0021AC76 /* pageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pageView.h; sourceTree = "<group>"; };
+		14D471F31E3E214D0021AC76 /* pageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +112,9 @@
 				14D471C41E3E1D220021AC76 /* ViewController.m */,
 				14D471C61E3E1D220021AC76 /* Main.storyboard */,
 				14D471C91E3E1D220021AC76 /* Assets.xcassets */,
+				14D471F21E3E214D0021AC76 /* pageView.h */,
+				14D471F31E3E214D0021AC76 /* pageView.m */,
+				14D471F01E3E1ECB0021AC76 /* 雨滴.png */,
 				14D471CB1E3E1D220021AC76 /* LaunchScreen.storyboard */,
 				14D471CE1E3E1D220021AC76 /* Info.plist */,
 				14D471BD1E3E1D220021AC76 /* Supporting Files */,
@@ -247,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				14D471CD1E3E1D220021AC76 /* LaunchScreen.storyboard in Resources */,
+				14D471F11E3E1ECB0021AC76 /* 雨滴.png in Resources */,
 				14D471CA1E3E1D220021AC76 /* Assets.xcassets in Resources */,
 				14D471C81E3E1D220021AC76 /* Main.storyboard in Resources */,
 			);
@@ -274,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				14D471C51E3E1D220021AC76 /* ViewController.m in Sources */,
+				14D471F41E3E214D0021AC76 /* pageView.m in Sources */,
 				14D471C21E3E1D220021AC76 /* AppDelegate.m in Sources */,
 				14D471BF1E3E1D220021AC76 /* main.m in Sources */,
 			);
